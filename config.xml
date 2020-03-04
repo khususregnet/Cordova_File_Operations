@@ -8,6 +8,10 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+	<platform name="android" />	
+	<preference name="phonegap-version" value="cli-9.0.0" />
+   	<preference name="android-targetSdkVersion" value="28" />
+
     <plugin name="cordova-plugin-whitelist" version="1" />
     <access origin="*" subdomains="true" />
 	<allow-navigation href="http://*/*" />
